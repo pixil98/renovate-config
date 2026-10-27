@@ -3,12 +3,5 @@
   "description": "Shared settings for all homelab repositories",
   "extends": [
     "config:recommended"
-  ],
-  "registryAliases": {
-    "registry.lab.reisman.org/proxy.ghcr.io": "ghcr.io",
-    "registry.lab.reisman.org/proxy.docker.io": "docker.io",
-    "registry.lab.reisman.org/proxy.quay.io": "quay.io",
-    "registry.lab.reisman.org/proxy.gcr.io": "gcr.io",
-    "registry.lab.reisman.org/proxy.registry.k8s.io": "registry.k8s.io"
-  }
+  ]
 }

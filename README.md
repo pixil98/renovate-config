@@ -5,7 +5,7 @@ repositories.
 
 | Preset | Use in | Contents |
 |---|---|---|
-| `github>pixil98/renovate-config` | every homelab repository | `config:recommended` and the `registry.lab.reisman.org` pull-through proxy aliases |
+| `github>pixil98/renovate-config` | every homelab repository | `config:recommended` |
 | `github>pixil98/renovate-config:kubernetes` | Flux and Kubernetes manifest repositories | The Flux, Kubernetes and CNPG `imageName` managers, image digest pinning, and one grouped PR for digest-only updates |
 
 A repository's `renovate.json` extends the presets it needs and keeps only the
